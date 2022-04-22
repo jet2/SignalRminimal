@@ -13,7 +13,7 @@ namespace WebAppE
 {
     public class Worker : BackgroundService
     {
-        OpenConfiguration KbdConnectCfg = new OpenConfiguration();
+       
         public static HidDevice yscanner;
         // Read only instance of IHubContext
         private readonly IHubContext<MyHub> _hub;
